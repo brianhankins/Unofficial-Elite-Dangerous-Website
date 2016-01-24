@@ -1,0 +1,104 @@
+/* Global */
+
+html, body {
+	height: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+
+/* cover*/
+
+#cover {
+	background: #222 url('img/milky-way-galaxy.jpg') no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+#cover-caption {
+	width: 100%;
+}
+
+#cover p {
+	color: orange;
+	font-size: 1.6rem;
+}
+.display-3 {
+	color: orange;
+}
+
+
+/*Carousel*/
+.carousel-caption {
+	color: orange;
+}
+
+#carousel-caption1 {
+	color: red;
+}
+
+
+/*Ship Content*/
+.section-content {
+	background: url('img/starbackground.jpg') no-repeat;
+	background-size: cover;
+	color: #999;
+	text-align: center;
+	padding: 3rem;
+}
+
+#ship-compare h1 {
+	color: orange;
+	padding: 1.2rem 0 1rem 0;
+	font-size: 3.5rem;
+}
+
+#ship-compare p {
+	color: white;
+	padding-bottom: 1rem;
+}
+
+/*About Me*/
+#about {
+	background-color: white;
+	background-size: cover;
+	margin: 1.875rem;
+}
+
+.section-about-me img {
+	border-radius: 100%;	
+	float: right;
+	padding: 3rem;
+}
+
+.about-text {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	padding: 2rem;
+	text-align: center;
+}
+
+/*Footer*/
+
+#footer-main {
+	background: #222;
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+}
